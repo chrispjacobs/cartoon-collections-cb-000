@@ -20,8 +20,18 @@ def summon_captain_planet(array)
   array
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(array)
+  i = 1
+  while i <= array.count
+    array.collect do |call_input|
+      if call_input.count > 5
+        true
+      else
+        false
+      end
+      i += 1
+    end
+  end
 end
 
 def find_the_cheese# code an argument here
