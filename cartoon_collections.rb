@@ -33,7 +33,7 @@ def long_planeteer_calls(array)
       i += 1
     end
   end
-  if altered_array.detect {|entry| entry.false?} == false
+  if altered_array.detect {|entry| entry == false} == true
     false
   else
     true
