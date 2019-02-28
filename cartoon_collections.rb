@@ -52,3 +52,5 @@ puts "Testing long_planeteer_calls. The result should be false:"
 puts long_planeteer_calls(["puff", "go", "two"])
 puts "Testing long_planeteer_calls again. The result should be true:"
 puts long_planeteer_calls(["two", "go", "industrious", "bop"])
+puts "Testing find_the_cheese. The return value is:"
+puts find_the_cheese(["tomato soup", "cheddar", "oyster crackers", "gouda"])
