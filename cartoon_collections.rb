@@ -26,7 +26,7 @@ def long_planeteer_calls(array)
   while i <= array.count
     array.each do |call_input|
       if call_input.length > 5
-        altered array << true
+        altered_array << true
       else
         altered_array << false
       end
