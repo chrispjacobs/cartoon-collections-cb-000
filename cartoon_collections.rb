@@ -43,3 +43,7 @@ puts "Testing roll_call_dwarves:"
 roll_call_dwarves(["Doc", "Dopey", "Bashful", "Grumpy"])
 puts "Testing summon_captain_planet. The return value is:"
 puts summon_captain_planet(["Earth!", "Wind!", "Fire!", "Water!", "Heart!"])
+puts "Testing long_planeteer_calls. The result should be false:"
+puts long_planeteer_calls(["puff", "go", "two"])
+puts "Testing long_planeteer_calls again. The result should be true:"
+puts long_planeteer_calls(["two", "go", "industrious", "bop"])
