@@ -22,17 +22,18 @@ end
 
 def long_planeteer_calls(array)
   i = 1
+  altered_array = []
   while i <= array.count
-    array.collect do |call_input|
+    array.each do |call_input|
       if call_input.length > 5
-        true
+        altered array << true
       else
-        false
+        altered_array << false
       end
       i += 1
     end
   end
-  array
+  altered_array
 end
 
 def find_the_cheese# code an argument here
