@@ -1,7 +1,8 @@
 def roll_call_dwarves(array)
   i = 1
   if i <= array.count
-    puts "#{i}. #{array[i]}"
+    array.each do |dwarf|
+      puts "#{i}. #{dwarf}"
     i += 1
   end
 end
