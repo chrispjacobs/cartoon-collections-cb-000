@@ -40,9 +40,8 @@ def long_planeteer_calls(array)
 end
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
+def find_the_cheese(array)
+  array.detect {|entry| entry == "cheddar" || entry == "gouda" || entry == "camembert"}
 end
 
 puts "Testing roll_call_dwarves:"
