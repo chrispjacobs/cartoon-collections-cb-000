@@ -8,8 +8,15 @@ def roll_call_dwarves(array)
   end
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(array)
+  i = 1
+  if i <= array.count
+    array.collect do |element_call|
+      element_call.capitalize
+      element_call = element_call + "!"
+    end
+    i += 1
+  end
 end
 
 def long_planeteer_calls# code an argument here
