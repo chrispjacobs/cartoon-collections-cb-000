@@ -31,3 +31,5 @@ end
 
 puts "Testing roll_call_dwarves:"
 roll_call_dwarves(["Doc", "Dopey", "Bashful", "Grumpy"])
+puts "Testing summon_captain_planet. The return value is:"
+summon_captain_planet(["Earth!", "Wind!", "Fire!", "Water!", "Heart!"])
