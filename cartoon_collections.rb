@@ -44,13 +44,13 @@ def find_the_cheese(array)
   array.detect {|entry| entry == "cheddar" || entry == "gouda" || entry == "camembert"}
 end
 
-puts "Testing roll_call_dwarves:"
-roll_call_dwarves(["Doc", "Dopey", "Bashful", "Grumpy"])
-puts "Testing summon_captain_planet. The return value is:"
-puts summon_captain_planet(["Earth!", "Wind!", "Fire!", "Water!", "Heart!"])
-puts "Testing long_planeteer_calls. The result should be false:"
-puts long_planeteer_calls(["puff", "go", "two"])
-puts "Testing long_planeteer_calls again. The result should be true:"
-puts long_planeteer_calls(["two", "go", "industrious", "bop"])
-puts "Testing find_the_cheese. The return value is:"
-puts find_the_cheese(["tomato soup", "cheddar", "oyster crackers", "gouda"])
+# puts "Testing roll_call_dwarves:"
+# roll_call_dwarves(["Doc", "Dopey", "Bashful", "Grumpy"])
+# puts "Testing summon_captain_planet. The return value is:"
+# puts summon_captain_planet(["Earth!", "Wind!", "Fire!", "Water!", "Heart!"])
+# puts "Testing long_planeteer_calls. The result should be false:"
+# puts long_planeteer_calls(["puff", "go", "two"])
+# puts "Testing long_planeteer_calls again. The result should be true:"
+# puts long_planeteer_calls(["two", "go", "industrious", "bop"])
+# puts "Testing find_the_cheese. The return value is:"
+# puts find_the_cheese(["tomato soup", "cheddar", "oyster crackers", "gouda"])
